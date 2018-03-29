@@ -21,6 +21,7 @@ main() {
     "kube-scheduler"
     "kubectl"
     "kubelet"
+    "cloud-controller-manager"
   )
 
   pushd "$(dirname "${BASH_SOURCE[0]}")/.."
